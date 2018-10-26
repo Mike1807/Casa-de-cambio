@@ -1,0 +1,180 @@
+{
+	"info": {
+		"_postman_id": "d322ebd9-cf07-423d-96da-05240bc25ce6",
+		"name": "WS",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "mexicano",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost/CasaCambio/api/passportbymxn?mexicano=MJZS980718",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"CasaCambio",
+						"api",
+						"passportbymxn"
+					],
+					"query": [
+						{
+							"key": "mexicano",
+							"value": "MJZS980718"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "extranjero",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "Apocalipsis18",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "miguel",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost/CasaCambio/api/passportbyext?extranjero=ALC010802",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"CasaCambio",
+						"api",
+						"passportbyext"
+					],
+					"query": [
+						{
+							"key": "extranjero",
+							"value": "ALC010802"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "addpassport",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost/CasaCambio/api/addpassport",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"CasaCambio",
+						"api",
+						"addpassport"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "updatepassport",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost/CasaCambio/api/updatepassport",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"CasaCambio",
+						"api",
+						"updatepassport"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deletepassport",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost/CasaCambio/api/deletepassport",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"CasaCambio",
+						"api",
+						"deletepassport"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "passports",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost/CasaCambio/api/passports",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"CasaCambio",
+						"api",
+						"passports"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
