@@ -4,7 +4,6 @@
   <link rel="stylesheet" href="../bootstrap-3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" href="../bootstrap-3.3.7/css/csscustom.css">  
   <link href="../plugins/datatables/dataTables.bootstrap.css" rel="stylesheet" type="text/css" />
-
   <link rel="stylesheet" href="../plugins/datepicker/datepicker3.css">
 
   <style>
@@ -24,8 +23,6 @@
     margin-top:25px;
    }
   </style>
-  
-
  </head>
  <body>
 
